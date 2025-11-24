@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void ededinNovu(int x) {
+    if (x > 0)
+        cout << "Eded musbetdir." << endl;
+    else if (x < 0)
+        cout << "Eded menfidir." << endl;
+    else
+        cout << "Eded sifirdir." << endl;
+}
+
+int main() {
+    int n;
+
+    cout << "Bir eded daxil edin: ";
+    cin >> n;
+
+    ededinNovu(n);
+}
