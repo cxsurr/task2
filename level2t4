@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void cuttek(int x) {
+    if (x % 2 == 0)
+        cout << "Eded cutdur." << endl;
+    else
+        cout << "Eded tekdir." << endl;
+}
+
+int main() {
+    int n;
+
+    cout << "Bir eded daxil edin: ";
+    cin >> n;
+
+    cuttek(n);
+}
