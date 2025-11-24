@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void boyukEded(int a, int b) {
+    if (a > b)
+        cout << "Boyuk eded: " << a << endl;
+    else if (b > a)
+        cout << "Boyuk eded: " << b << endl;
+    else
+        cout << "Ededler beraberdir." << endl;
+}
+
+int main() {
+    int a, b;
+
+    cout << "Iki eded daxil edin: ";
+    cin >> a >> b;
+
+    boyukEded(a, b);
+}
