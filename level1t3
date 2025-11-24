@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void ededEmeliyyatlari(int a, int b) {
+    cout << "Cem: " << a + b << endl;
+    cout << "Ferq: " << a - b << endl;
+    cout << "Hasil: " << a * b << endl;
+
+    if (b != 0)
+        cout << "Bolme: " << (double)a / b << endl;
+    else
+        cout << "0-a bolmek olmaz!" << endl;
+}
+
+int main() {
+    int a, b;
+    cout << "Iki eded daxil edin: ";
+    cin >> a >> b;
+    ededEmeliyyatlari(a, b);
+}
