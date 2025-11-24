@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void daireniHesabla(double r) {
-    const double PI = 3.14159;
-    cout << "Sahesi: " << PI * r * r << endl;
-    cout << "Cevresi: " << 2 * PI * r << endl;
+void kvadratKubu(int x) {
+    cout << "Kvadrat: " << x * x << endl;
+    cout << "Kub: " << x * x * x << endl;
 }
 
 int main() {
-    double r;
-    cout << "Dairenin radiusunu daxil edin: ";
-    cin >> r;
-    daireniHesabla(r);
+    int x;
+    cout << "Bir eded daxil edin: ";
+    cin >> x;
+    kvadratKubu(x);
 }
+
