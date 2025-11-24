@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void ucEdedMuq(int x, int y, int z) {
+    if (x >= y && x >= z)     
+        cout << "En boyuk: " << x << endl;
+    else if (y >= z)
+        cout << "En boyuk: " << y << endl;
+    else
+        cout << "En boyuk: " << z << endl;
+}
+
+int main() {
+    int x, y, z;
+
+    cout << "Ededleri daxil edin: ";
+    cin >> x >> y >> z;
+
+    ucEdedMuq(x, y, z);
+}
